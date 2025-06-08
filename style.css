@@ -517,6 +517,10 @@ b {
   font-size: 2rem;
 }
 
+.m-auto {
+  margin: auto;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -657,13 +661,17 @@ b {
     gap: 2rem;
   }
   .images img,
-  .teacher-item-image img {
-    width: 100%;
-  }
+  .teacher-item-image img,
   #about img {
     width: 100%;
-    height: auto;
+    height: 30rem;
   }
+
+  .images img,
+  .image img {
+    height: 30rem;
+  }
+
   h2 {
     font-size: 2rem;
   }
@@ -732,5 +740,14 @@ b {
   }
   .data-item {
     padding: 1.7rem;
+  }
+  section {
+    padding: 0;
+  }
+  .image {
+    width: 100%;
+  }
+  #about img {
+    margin-top: 0;
   }
 }
