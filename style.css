@@ -707,4 +707,15 @@ b {
   .teacher-item > .teacher-item-image {
     display: none;
   }
+
+  h6 {
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .data-item .main-button {
+    padding: 1rem;
+  }
+  .data-item {
+    padding: 1.7rem;
+  }
 }
