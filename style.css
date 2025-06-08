@@ -248,6 +248,7 @@ section {
   box-shadow: 0 0 20px rgba(64, 208, 119, 0.6);
   object-fit: cover;
   margin: 3rem auto auto;
+  width: 100%;
 }
 
 b {
