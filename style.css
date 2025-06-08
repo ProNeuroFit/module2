@@ -417,6 +417,10 @@ b {
   gap: 4rem;
 }
 
+.teacher-item-text .teacher-item-image {
+  display: none;
+}
+
 .teacher-item-image img {
   width: 35rem;
   height: 35rem;
@@ -695,5 +699,12 @@ b {
   }
   #contact h3 {
     font-size: 1.5rem;
+  }
+  .teacher-item-text .teacher-item-image {
+    display: flex;
+    margin-bottom: 4rem;
+  }
+  .teacher-item > .teacher-item-image {
+    display: none;
   }
 }
