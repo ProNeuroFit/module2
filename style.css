@@ -63,7 +63,7 @@ section h2::after {
 }
 
 h4 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   text-transform: uppercase;
   font-family: 'Roboto', sans-serif;
   font-weight: 500;
@@ -254,12 +254,17 @@ section {
 .reveal {
   opacity: 0;
   transform: translateY(50px);
-  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+  transition: opacity 0.3s ease-out, transform 0.3s ease-out;
 }
 
 .reveal.active {
   opacity: 1;
   transform: translateY(0);
+}
+
+b {
+  color: var(--accent);
+  font-weight: 300;
 }
 
 .wrapper {
